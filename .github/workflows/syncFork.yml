@@ -12,3 +12,5 @@ jobs:
 
     steps:
       - uses: tgymnich/fork-sync@v1.4
+        with:
+          owner: alxshelepenok
