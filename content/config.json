@@ -1,7 +1,7 @@
 {
-  "title": "Blog by John Doe",
+  "title": "Ryan Adam",
   "url": "https://lumen.alxshelepenok.com",
-  "subtitle": "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
+  "subtitle": "TODO",
   "copyright": "© All rights reserved.",
   "googleAnalyticsId": "UA-73379983-2",
   "disqusShortname": "",
@@ -15,25 +15,21 @@
     {
       "label": "About me",
       "path": "/pages/about"
-    },
-    {
-      "label": "Contact me",
-      "path": "/pages/contacts"
     }
   ],
   "author": {
-    "name": "John Doe",
+    "name": "Ryan Adam",
     "photo": "/photo.jpg",
-    "bio": "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
+    "bio": "Software Engineer in Glasgow, baker / technologist / amateur DIYer at home, runs on coffee & cake",
     "contacts": {
       "rss": "",
-      "email": "",
-      "github": "#",
-      "facebook": "#",
-      "telegram": "#",
-      "twitter": "#",
-      "linkedin": "#",
-      "instagram": "#",
+      "email": "ryan@ryanadam.dev",
+      "github": "rfadam",
+      "facebook": "",
+      "telegram": "",
+      "twitter": "rfadam",
+      "linkedin": "rfadam",
+      "instagram": "ryanfadam",
       "line": "",
       "weibo": "",
       "gitlab": "",
