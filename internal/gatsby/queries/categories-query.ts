@@ -13,10 +13,8 @@ const categoriesQuery = async (graphql: CreatePagesArgs["graphql"]) => {
   const result = await graphql<CategoriesQueryResult>(`
     {
       allMarkdownRemark(
-        filter: {
-          frontmatter: { template: { eq: "post" }, draft: { ne: true } }
-        }
-        sort: { order: DESC, fields: [frontmatter___date] }
+        filter: {frontmatter: {template: {eq: "post"}, draft: {ne: true}, published: {ne: false}}}
+        sort: {order: DESC, fields: [frontmatter___date]}
       ) {
         group(field: frontmatter___category) {
           fieldValue
