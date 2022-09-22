@@ -195,6 +195,7 @@ export default {
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-optimize-svgs",
     "gatsby-plugin-sass",
+    `gatsby-plugin-netlify`,
     "gatsby-plugin-netlify-cms",
   ],
 };
