@@ -11,7 +11,9 @@ export interface PostsQueryResult {
 const postsQuery = async (graphql: CreatePagesArgs["graphql"]) => {
   const result = await graphql<PostsQueryResult>(`
     {
-      allMarkdownRemark(filter: { frontmatter: { draft: { ne: true } } }) {
+      allMarkdownRemark(
+        filter: {frontmatter: {draft: {ne: true}, build: {ne: false}}}
+      ) {
         edges {
           node {
             fields {
