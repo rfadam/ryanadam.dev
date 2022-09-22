@@ -1,0 +1,44 @@
+backend:
+  name: github
+  repo: rfadam/ryanadam.dev
+  branch: master # Branch to update (optional; defaults to master)
+
+media_folder: "static/media"
+public_folder: "/media"
+
+# Uncomment to leverage Netlify CMS UI authoring flow
+# see: https://www.netlifycms.org/docs/configuration-options/#publish-mode
+# publish_mode: editorial_workflow
+
+collections:
+  - name: "posts"
+    label: "Posts"
+    folder: "content/posts"
+    path: '{{year}}/{{month}}/{{title}}/index'
+    create: true
+    slug: 'index'
+    preview_path: "posts/{{fields.slug}}"
+    format: yaml-frontmatter
+    fields:
+      - {label: "Template", name: "template", widget: "hidden", default: "post"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Published Publicly", name: "published", widget: "boolean", default: false, hint: "Shows up on links, tags, etc"}
+      - {label: "Build", name: "build", widget: "boolean", default: true, hint: "Build the page on gatsby. When not published publicly can be access by url directly"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Category", name: "category", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Tags", name: "tags", widget: "list", hint: "Use Capital case. E.g.: Tech, PC"}
+
+  - name: "pages"
+    label: "Pages"
+    folder: "content/pages"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Template", name: "template", widget: "hidden", default: "page"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Slug", name: "slug", widget: "string"}
+      - {label: "Published Publicly", name: "published", widget: "boolean", default: false, hint: "Shows up on links, tags, etc"}
+      - {label: "Build", name: "build", widget: "boolean", default: true, hint: "Build the page on gatsby. When not published publicly can be access by url directly"}
+      - {label: "Body", name: "body", widget: "markdown"}
