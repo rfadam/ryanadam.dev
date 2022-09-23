@@ -197,5 +197,7 @@ export default {
     "gatsby-plugin-sass",
     `gatsby-plugin-netlify`,
     "gatsby-plugin-netlify-cms",
+    `gatsby-plugin-twitter`,
+    `gatsby-plugin-instagram-embed`,
   ],
 };
