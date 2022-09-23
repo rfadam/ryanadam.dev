@@ -1,9 +1,9 @@
 {
   "title": "Ryan Adam",
-  "url": "https://lumen.alxshelepenok.com",
-  "subtitle": "TODO",
+  "url": "https://ryanadam.dev",
+  "subtitle": "ryanadam.dev",
   "copyright": "© All rights reserved.",
-  "googleAnalyticsId": "UA-73379983-2",
+  "googleAnalyticsId": "",
   "disqusShortname": "",
   "postsLimit": 4,
   "pathPrefix": "/",
@@ -20,7 +20,7 @@
   "author": {
     "name": "Ryan Adam",
     "photo": "/photo.jpg",
-    "bio": "Software Engineer in Glasgow, baker / technologist / amateur DIYer at home, runs on coffee & cake",
+    "bio": "Software Engineer in Glasgow, baker / climber / amateur DIYer at home, runs on coffee & cake",
     "contacts": {
       "rss": "",
       "email": "ryan@ryanadam.dev",
