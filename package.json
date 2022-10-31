@@ -54,7 +54,7 @@
     "gatsby": "^4.23.1",
     "gatsby-link": "^4.23.0",
     "gatsby-plugin-catch-links": "^4.24.0",
-    "gatsby-plugin-feed": "^4.23.1",
+    "gatsby-plugin-feed": "^4.24.0",
     "gatsby-plugin-google-gtag": "^4.24.0",
     "gatsby-plugin-image": "^2.23.1",
     "gatsby-plugin-instagram-embed": "^4.0.0",
