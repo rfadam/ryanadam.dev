@@ -1,11 +1,11 @@
 ---
 template: post
 title: Too Soon for one of the class of 2011
-published: false
+published: true
 build: true
-date: 2022-11-22T01:49:06.616Z
-description: Some may understand that you need to write things down to make
-  sense? This is my attempt at it
+date: 2022-11-22T22:53:18.002Z
+description: You know when you hear some news and you need to process it
+  somehow? This is my attempt at processing it
 category: personal
 ---
 So - I'm writing this as a way to try and understand the below. It may not make sense as a whole, but some parts may alone.
@@ -14,7 +14,7 @@ When I left High School, I was part of the class of 2011. A year that started of
 
 When you are part of a group, or cohort, or mass of people then there is somewhat benchmarking between everyone. I don't think its intensional, but its there. So many of us went to Uni, a large factor actually graduated, even less ended up being in a career that is linked to that degree. Then you get into "adulting": people buying a house, moving abroad for a new job, Marriage then kids. Its all part of growing up. Although I have lost touch with people, you do see the slight tidbit of info of people growing up: not just staying still as the slightly care free S6's about to go headfirst into the world that I remember people as.
 
-Tonight though, as I write this (November 21st 2022) I believe I have just heard of the first death of a member of the Class of 2011.
+Tonight though, as I write this (November 21st 2022) I believe I have just heard of the first [death of a member of the Class of 2011](https://www.dailyrecord.co.uk/news/scottish-news/kirsty-miller-scots-vet-missing-28550924).
 
 I was in the same form class as Kirsty Miller since S1. We didn't go to the same Primary School, and to be honest we did not really belong to *exactly* the same friend group, but we knew each other and we respected each other (I felt). She was friendly, could take a joke and I don't remember her ever being nasty (even in the expected teenager way).
 
