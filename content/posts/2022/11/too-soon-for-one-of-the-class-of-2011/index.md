@@ -20,7 +20,7 @@ I was in the same form class as Kirsty Miller since S1. We didn't go to the same
 
 I remember that she always wanted to be a vet - as in that is the thing that stands out in my head: Kirsty Miller == Vet. When she got into Vet School, I was happy for her - as honestly she was doing something I got the impression she wanted to do and loved: 
 
-https://twitter.com/rfadam/status/202510300174487552
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">So Kirsty Miller got in Uni to do Vet Med. Unis - it was way overdue. Anyway, congrats Kirsty!!</p>&mdash; Ryan Adam (@rfadam) <a href="https://twitter.com/rfadam/status/202510300174487552?ref_src=twsrc%5Etfw">May 15, 2012</a></blockquote>
 
 As I write this, the reports are hazy at best - and the fact I have lost touch with a-lot of people from my High School year (including Kirsty), this hits in a weird way. This is someone I expected to do great things, have no reason to think they could do great things, but is no longer here. I was not close to her (case the point of not seeing alot of these people in 11 years) but this still hits home weirdly. Someone my age, someone who I remember being kind and clever and trying bloody hard at things is no longer here.
 
