@@ -33,3 +33,5 @@ I can only give my condolences to Kirsty's family, friends, colleagues and pets 
 I cannot even start to understand what they will be feeling and thinking right now, and I really do not wish to try.
 
 One of my final thoughts I have will be of the handprint board we did in the final days of High School. Kirsty's is in the bottom centre: it is only one that is 3 colours:
+
+![](242179_10150175363157013_317369_o.jpg)
