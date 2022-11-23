@@ -14,7 +14,7 @@ When I left High School, I was part of the class of 2011. A year that started of
 
 When you are part of a group, or cohort, or mass of people then there is somewhat benchmarking between everyone. I don't think its intensional, but its there. So many of us went to Uni, a large factor actually graduated, even less ended up being in a career that is linked to that degree. Then you get into "adulting": people buying a house, moving abroad for a new job, Marriage then kids. Its all part of growing up. Although I have lost touch with people, you do see the slight tidbit of info of people growing up: not just staying still as the slightly care free S6's about to go headfirst into the world that I remember people as.
 
-Tonight though, as I write this (November 21st 2022) I believe I have just heard of the first [death of a member of the Class of 2011](https://www.dailyrecord.co.uk/news/scottish-news/kirsty-miller-scots-vet-missing-28550924).
+Tonight though, as I write this (November 21st 2022) I believe I have just heard of the first [death of a member of the Class of 2011](https://www.dailyrecord.co.uk/news/scottish-news/kirsty-miller-scots-vet-missing-28550924). ([Twitter Post from Local Police](https://twitter.com/BordersPolice/status/1594769083446472706))
 
 I was in the same form class as Kirsty Miller since S1. We didn't go to the same Primary School, and to be honest we did not really belong to *exactly* the same friend group, but we knew each other and we respected each other (I felt). She was friendly, could take a joke and I don't remember her ever being nasty (even in the expected teenager way).
 
