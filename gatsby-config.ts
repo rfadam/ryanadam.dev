@@ -55,12 +55,8 @@ export default {
                 ...node.frontmatter,
                 date: node?.frontmatter?.date,
                 description: node?.frontmatter?.description,
-                url:
-                  site.siteMetadata.url +
-                  (node.frontmatter?.slug || node.fields?.slug),
-                guid:
-                  site.siteMetadata.url +
-                  (node.frontmatter?.slug || node.fields?.slug),
+                url: site.siteMetadata.url + node?.fields?.slug,
+                guid: site.siteMetadata.url + node?.fields?.slug,
                 custom_elements: [{ "content:encoded": node.html }],
               })),
             query: `
@@ -79,7 +75,6 @@ export default {
                       frontmatter {
                         date
                         title
-                        slug
                         description
                       }
                     }
@@ -197,6 +192,7 @@ export default {
     },
     "gatsby-plugin-image",
     "gatsby-plugin-catch-links",
+    "gatsby-plugin-react-helmet",
     "gatsby-plugin-optimize-svgs",
     "gatsby-plugin-sass",
     `gatsby-plugin-netlify`,

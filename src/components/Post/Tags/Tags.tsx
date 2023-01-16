@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Button } from "@/components/Button";
+import { Link } from "gatsby";
 
 import * as styles from "./Tags.module.scss";
 
@@ -15,7 +15,9 @@ const Tags = ({ tags, tagSlugs }: Props) => (
       {tagSlugs
         ? tagSlugs.map((slug, i) => (
             <li className={styles.item} key={slug}>
-              <Button title={tags[i]} key={slug} to={slug} />
+              <Link to={slug} className={styles.link}>
+                {tags[i]}
+              </Link>
             </li>
           ))
         : null}

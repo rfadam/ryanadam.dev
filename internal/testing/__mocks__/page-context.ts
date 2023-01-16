@@ -1,5 +1,5 @@
 export default {
-  group: "Typography",
+  group: "typography",
   pagination: {
     currentPage: 2,
     prevPagePath: "/typography/page/1",

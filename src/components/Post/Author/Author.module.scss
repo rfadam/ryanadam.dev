@@ -2,7 +2,7 @@
 @import "../../../assets/scss/mixins";
 
 .author {
-  border-top: 1px solid var(--color-page-border);
+  border-top: 1px solid $color-gray-border;
   max-width: $layout-post-width;
   @include padding-top(1);
   @include line-height(1);
@@ -13,11 +13,6 @@
     .twitter {
       display: block;
       text-decoration: underline;
-
-      &:hover,
-      &:focus {
-        color: var(--color-typographic-link-s-font);
-      }
     }
   }
 }

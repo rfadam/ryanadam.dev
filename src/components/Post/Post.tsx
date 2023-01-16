@@ -1,7 +1,7 @@
 import React from "react";
 
-import { Button } from "@/components/Button";
-import { ThemeSwitcher } from "@/components/ThemeSwitcher";
+import { Link } from "gatsby";
+
 import type { Node } from "@/types";
 
 import { Author } from "./Author";
@@ -23,10 +23,9 @@ const Post: React.FC<Props> = ({ post }: Props) => {
 
   return (
     <div className={styles.post}>
-      <div className={styles.buttons}>
-        <Button className={styles.buttonArticles} title="All Articles" to="/" />
-        <ThemeSwitcher />
-      </div>
+      <Link className={styles.button} to="/">
+        All Articles
+      </Link>
 
       <div className={styles.content}>
         <Content body={html} title={title} />

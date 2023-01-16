@@ -1,17 +1,22 @@
 import React from "react";
+import renderer from "react-test-renderer";
 
-import { render as reactTestingLibraryRender } from "@testing-library/react";
 import { StaticQuery, useStaticQuery } from "gatsby";
 
 import * as mocks from "@/mocks";
-import { testUtils } from "@/utils";
 
-import PostTemplate, { Head as GatsbyHead } from "./PostTemplate";
+import PostTemplate from "./PostTemplate";
 
 const mockedStaticQuery = StaticQuery as jest.Mock;
 const mockedUseStaticQuery = useStaticQuery as jest.Mock;
 
 describe("PostTemplate", () => {
+  const props = {
+    data: {
+      markdownRemark: mocks.markdownRemark,
+    },
+  };
+
   beforeEach(() => {
     mockedStaticQuery.mockImplementationOnce(({ render }) =>
       render(mocks.siteMetadata),
@@ -19,43 +24,8 @@ describe("PostTemplate", () => {
     mockedUseStaticQuery.mockReturnValue(mocks.siteMetadata);
   });
 
-  test("renders correctly", () => {
-    const props = {
-      data: {
-        markdownRemark: mocks.markdownRemark,
-      },
-    };
-
-    const tree = testUtils
-      .createSnapshotsRenderer(<PostTemplate {...props} />)
-      .toJSON();
+  it("renders correctly", () => {
+    const tree = renderer.create(<PostTemplate {...props} />).toJSON();
     expect(tree).toMatchSnapshot();
-  });
-
-  test("head renders correctly", () => {
-    const props = {
-      data: {
-        markdownRemark: mocks.markdownRemarkWithoutDescription,
-      },
-    };
-
-    reactTestingLibraryRender(<GatsbyHead {...props} />);
-
-    expect(testUtils.getMeta("twitter:card")).toEqual("summary_large_image");
-    expect(testUtils.getMeta("twitter:title")).toEqual(
-      "Humane Typography in the Digital Age - Blog by John Doe",
-    );
-    expect(testUtils.getMeta("og:title")).toEqual(
-      "Humane Typography in the Digital Age - Blog by John Doe",
-    );
-    expect(testUtils.getMeta("description")).toEqual(
-      "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
-    );
-    expect(testUtils.getMeta("twitter:description")).toEqual(
-      "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
-    );
-    expect(testUtils.getMeta("og:description")).toEqual(
-      "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
-    );
   });
 });

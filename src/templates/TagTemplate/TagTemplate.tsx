@@ -4,7 +4,6 @@ import { graphql } from "gatsby";
 
 import { Feed } from "@/components/Feed";
 import { Layout } from "@/components/Layout";
-import { Meta } from "@/components/Meta";
 import { Page } from "@/components/Page";
 import { Pagination } from "@/components/Pagination";
 import { Sidebar } from "@/components/Sidebar";
@@ -19,12 +18,20 @@ interface Props {
 }
 
 const TagTemplate: React.FC<Props> = ({ data, pageContext }: Props) => {
+  const { title: siteTitle, subtitle: siteSubtitle } = useSiteMetadata();
+
   const { group, pagination } = pageContext;
-  const { prevPagePath, nextPagePath, hasPrevPage, hasNextPage } = pagination;
+  const { currentPage, prevPagePath, nextPagePath, hasPrevPage, hasNextPage } =
+    pagination;
+
   const { edges } = data.allMarkdownRemark;
+  const pageTitle =
+    currentPage > 0
+      ? `${group} - Page ${currentPage} - ${siteTitle}`
+      : `${group} - ${siteTitle}`;
 
   return (
-    <Layout>
+    <Layout title={pageTitle} description={siteSubtitle}>
       <Sidebar />
       <Page title={group}>
         <Feed edges={edges} />
@@ -70,26 +77,11 @@ export const query = graphql`
             date
             category
             description
-            slug
           }
         }
       }
     }
   }
 `;
-
-export const Head: React.FC<Props> = ({ pageContext }) => {
-  const { title, subtitle } = useSiteMetadata();
-
-  const {
-    group,
-    pagination: { currentPage: page },
-  } = pageContext;
-
-  const pageTitle =
-    page > 0 ? `${group} - Page ${page} - ${title}` : `${group} - ${title}`;
-
-  return <Meta title={pageTitle} description={subtitle} />;
-};
 
 export default TagTemplate;

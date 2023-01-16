@@ -6,8 +6,7 @@ html {
 }
 
 body {
-  background: var(--color-page-background);
-  color: var(--color-typographic-base-font);
+  color: $typographic-base-font-color;
   font-family: $typographic-font-family;
   font-size: $typographic-base-font-size;
   -webkit-font-smoothing: antialiased;
@@ -82,14 +81,14 @@ hr {
     to bottom,
     transparent 1px,
     transparent 11px,
-    $color-dark 11px,
-    $color-dark 15px,
+    $color-base 11px,
+    $color-base 15px,
     transparent 15px,
     transparent 26px
   );
   background-size: 100% 26px;
   border: 0;
-  color: var(--color-typographic-base-font);
+  color: $color-base;
   display: block;
   height: 26px;
   margin: 52px auto;
@@ -97,13 +96,13 @@ hr {
 }
 
 a {
-  color: var(--color-typographic-link-p-font);
+  color: $typographic-link-p-font-color;
   text-decoration: none;
 
   &:hover,
   &:focus,
   &:active {
-    color: var(--color-typographic-link-s-font);
+    color: $typographic-link-s-font-color;
   }
 }
 
@@ -142,7 +141,7 @@ figure {
 figcaption {
   @include line-height(0.75);
   @include margin-top(0.25);
-  color: var(--color-typographic-base-font);
+  color: $color-base;
   font-size: $typographic-small-font-size;
   font-style: italic;
   margin-bottom: 0;

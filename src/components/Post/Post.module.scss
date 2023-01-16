@@ -1,5 +1,5 @@
-@import "src/assets/scss/variables";
-@import "src/assets/scss/mixins";
+@import "../../assets/scss/variables";
+@import "../../assets/scss/mixins";
 
 .post {
   .content {
@@ -18,15 +18,25 @@
     @include margin-auto();
   }
 
-  .buttons {
-    align-items: center;
-    display: flex;
-    justify-content: center;
+  .button {
+    border: 1px solid $color-gray-border;
+    border-radius: $button-border-radius;
+    color: $color-base;
+    display: block;
+    font-size: $typographic-base-font-size;
+    font-weight: normal;
+    height: $button-height;
+    line-height: $button-height;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90px;
     text-align: center;
-    @include margin(1, 0, 0, 0);
+    @include padding(0, 1);
+    @include margin-top(1);
 
-    .buttonArticles {
-      @include margin(0, 0.5, 0, 0);
+    &:hover,
+    &:focus {
+      color: $color-primary;
     }
   }
 }
@@ -41,12 +51,12 @@
       @include padding-equal(0);
     }
 
-    .buttons {
+    .button {
       left: 30px;
       max-width: none;
       position: fixed;
       top: 30px;
-      @include margin(0, 0.5, 0, 0);
+      @include margin-equal(0);
     }
   }
 }

@@ -16,12 +16,12 @@
       @include margin-bottom(0.5);
 
       .link {
-        color: var(--color-typographic-base-font);
+        color: $color-base;
 
         &:hover,
         &:focus {
-          border-bottom: 1px solid $color-dark;
-          color: var(--color-typographic-base-font);
+          border-bottom: 1px solid $color-base;
+          color: $color-base;
         }
       }
     }
@@ -34,7 +34,7 @@
 
     .meta {
       .time {
-        color: var(--color-typographic-base-font);
+        color: $color-base;
         font-size: $typographic-small-font-size;
         font-weight: 600;
         text-transform: uppercase;
@@ -46,27 +46,27 @@
 
       .category {
         .link {
-          color: var(--color-secondary);
+          color: $color-secondary;
           font-size: $typographic-small-font-size;
           font-weight: 600;
           text-transform: uppercase;
 
           &:hover,
           &:focus {
-            color: $color-blue;
+            color: $color-primary;
           }
         }
       }
     }
 
     .more {
-      color: var(--color-primary);
+      color: $color-primary;
       font-size: $typographic-base-font-size;
 
       &:hover,
       &:focus {
-        border-bottom: 1px solid $color-blue;
-        color: var(--color-primary);
+        border-bottom: 1px solid $color-primary;
+        color: $color-primary;
       }
     }
   }

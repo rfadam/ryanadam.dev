@@ -50,10 +50,6 @@
 
     h2 > a {
       visibility: hidden;
-
-      & > svg {
-        fill: var(--color-typographic-base-font);
-      }
     }
 
     img {
@@ -86,7 +82,7 @@
 
       h2 > a {
         visibility: unset;
-        @include padding-right(0.5);
+        @include padding-right(1);
       }
     }
   }

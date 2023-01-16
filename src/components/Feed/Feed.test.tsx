@@ -1,15 +1,13 @@
 import React from "react";
+import renderer from "react-test-renderer";
 
 import { Feed } from "@/components/Feed";
 import * as mocks from "@/mocks";
-import { testUtils } from "@/utils";
 
 describe("Feed", () => {
-  test("renders correctly", () => {
+  it("renders correctly", () => {
     const props = { edges: mocks.edges };
-    const tree = testUtils
-      .createSnapshotsRenderer(<Feed {...props} />)
-      .toJSON();
+    const tree = renderer.create(<Feed {...props} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 });

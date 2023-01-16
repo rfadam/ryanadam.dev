@@ -1,15 +1,13 @@
 import React from "react";
+import renderer from "react-test-renderer";
 
 import { Contacts } from "@/components/Sidebar/Contacts";
 import * as mocks from "@/mocks";
-import { testUtils } from "@/utils";
 
 describe("Contacts", () => {
-  test("renders correctly", () => {
+  it("renders correctly", () => {
     const props = { contacts: mocks.contacts };
-    const tree = testUtils
-      .createSnapshotsRenderer(<Contacts {...props} />)
-      .toJSON();
+    const tree = renderer.create(<Contacts {...props} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 });

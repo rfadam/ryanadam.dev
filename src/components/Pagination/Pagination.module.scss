@@ -12,17 +12,17 @@
     width: 50%;
 
     .previousLink {
-      color: var(--color-secondary);
+      color: $color-secondary;
       font-size: 26px;
       font-weight: bold;
 
       &:hover,
       &:focus {
-        color: var(--color-primary);
+        color: $color-primary;
       }
 
       &.disable {
-        color: $color-dark-cloud;
+        color: color.adjust($color-gray, $whiteness: 20%);
         pointer-events: none;
       }
     }
@@ -33,17 +33,17 @@
     width: 50%;
 
     .nextLink {
-      color: var(--color-secondary);
+      color: $color-secondary;
       font-size: 26px;
       font-weight: bold;
 
       &:hover,
       &:focus {
-        color: var(--color-primary);
+        color: $color-primary;
       }
 
       &.disable {
-        color: $color-dark-cloud;
+        color: color.adjust($color-gray, $whiteness: 20%);
         pointer-events: none;
       }
     }

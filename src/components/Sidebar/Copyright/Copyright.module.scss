@@ -4,6 +4,6 @@
 @import "../../../assets/scss/mixins";
 
 .copyright {
-  color: $color-gray;
+  color: color.adjust($color-gray, $whiteness: 18%);
   font-size: $typographic-small-font-size;
 }
