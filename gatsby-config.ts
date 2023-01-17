@@ -199,5 +199,8 @@ export default {
     "gatsby-plugin-catch-links",
     "gatsby-plugin-optimize-svgs",
     "gatsby-plugin-sass",
+    `gatsby-plugin-netlify`,
+    `gatsby-plugin-twitter`,
+    `gatsby-plugin-instagram-embed`,
   ],
 };
