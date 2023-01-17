@@ -14,7 +14,7 @@ const tagsQuery = async (graphql: CreatePagesArgs["graphql"]) => {
     {
       allMarkdownRemark(
         filter: {
-          frontmatter: { template: { eq: "post" }, draft: { ne: true }, published: { ne: false }}
+          frontmatter: { template: { eq: "post" }, draft: { ne: true }, published: { eq: true }}
         }
       ) {
         group(field: frontmatter___tags) {

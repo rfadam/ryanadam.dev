@@ -13,7 +13,7 @@ const postsQuery = async (graphql: CreatePagesArgs["graphql"]) => {
     {
       allMarkdownRemark(
         filter: {
-          frontmatter: { draft: { ne: true }, template: { eq: "post" } }
+          frontmatter: { template: { eq: "post" }, draft: { ne: true }, published: { eq: true } }
         }
       ) {
         edges {
