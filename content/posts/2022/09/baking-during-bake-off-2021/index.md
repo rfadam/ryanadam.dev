@@ -3,6 +3,7 @@ template: post
 title: Baking during Bake off 2021
 published: true
 build: true
+slug: ""
 date: 2021-11-20T00:00:43.239Z
 description: I was stupid enough to bake for 9 weeks straight last year, and it
   appears I was crazy enough to do it again

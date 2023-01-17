@@ -3,6 +3,7 @@ title: "Actually upgrading my Desktops GPU"
 date: "2020-04-17T00:00:00Z"
 template: "post"
 draft: false
+slug: ""
 published: true
 category: "Hardware Upgrade"
 tags:

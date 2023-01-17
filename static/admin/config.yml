@@ -22,6 +22,7 @@ collections:
     fields:
       - {label: "Template", name: "template", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Slug", name: "slug", widget: "string"}
       - {label: "Published Publicly", name: "published", widget: "boolean", default: false, hint: "Shows up on links, tags, etc"}
       - {label: "Build", name: "build", widget: "boolean", default: true, hint: "Build the page on gatsby. When not published publicly can be access by url directly"}
       - {label: "Publish Date", name: "date", widget: "datetime"}

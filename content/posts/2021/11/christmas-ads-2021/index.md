@@ -3,6 +3,7 @@ template: post
 title: Christmas Ads 2021
 published: false
 build: true
+slug: ""
 date: 2021-11-02T23:12:11.089Z
 description: Remember I used to look at Christmas Ads? Me neither - but they are here folks.
 category: CHRISTMAS

@@ -3,6 +3,7 @@ template: post
 title: This week has been weird
 published: false
 build: true
+slug: ""
 date: 2022-01-22T00:46:32.635Z
 description: Its been a weird week
 category: Personal

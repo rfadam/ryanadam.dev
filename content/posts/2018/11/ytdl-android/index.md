@@ -2,6 +2,7 @@
 title: YouTube-dl on an Android phone
 date: "2018-11-29T12:00:00.000Z"
 template: "post"
+slug: ""
 draft: false
 published: true
 category: "Tech"

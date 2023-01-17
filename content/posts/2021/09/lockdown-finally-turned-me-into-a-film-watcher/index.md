@@ -3,6 +3,7 @@ template: post
 title: Lockdown finally turned me into a film watcher
 published: true
 build: true
+slug: ""
 date: 2021-09-19T21:17:54.829Z
 description: Its one of the things that I somehow managed to stick with post lockdown
 category: Films

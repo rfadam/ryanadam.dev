@@ -3,6 +3,7 @@ title: "Baking during Bake off 2020"
 date: "2021-02-13T00:00:00Z"
 template: "post"
 draft: false
+slug: ""
 published: true
 category: "Baking"
 description: "I'm stuck in my flat during lockdown, so I turn to dough to get me through"

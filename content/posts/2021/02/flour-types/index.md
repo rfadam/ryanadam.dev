@@ -4,6 +4,7 @@ template: post
 title: Different types of flour
 published: false
 build: true
+slug: ""
 date: 2021-02-18T00:00:00Z
 description: I tend to use flour a lot, so it was about time I write this down
 category: Baking
