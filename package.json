@@ -1,6 +1,6 @@
 {
   "name": "gatsby-starter-lumen",
-  "version": "1.4.203",
+  "version": "1.4.205",
   "description": "A constantly evolving and thoughtful architecture for creating static blogs with Gatsby",
   "keywords": [
     "gatsby",
@@ -51,7 +51,7 @@
     "@alxshelepenok/diesel": "^1.0.649",
     "@alxshelepenok/diesel-extensions": "^1.0.273",
     "@sentry/gatsby": "^7.31.1",
-    "@sentry/tracing": "^7.30.0",
+    "@sentry/tracing": "^7.31.1",
     "abab": "^2.0.6",
     "classnames": "^2.3.2",
     "disqus-react": "^1.1.5",
@@ -137,7 +137,7 @@
     "prettier": "^2.8.3",
     "prettier-plugin-packagejson": "^2.4.0",
     "react-test-renderer": "^18.2.0",
-    "rimraf": "4.1.0",
+    "rimraf": "4.1.1",
     "sass": "^1.57.1",
     "semantic-release": "^20.0.2",
     "source-map-support": "^0.5.21",
