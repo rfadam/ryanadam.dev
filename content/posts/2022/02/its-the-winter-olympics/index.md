@@ -3,6 +3,7 @@ template: post
 title: Its the Winter Olympics
 published: true
 build: true
+slug: ""
 date: 2022-02-04T23:13:02.988Z
 description: Did we not just have the Olympics? Well, yes...
 category: Olympics

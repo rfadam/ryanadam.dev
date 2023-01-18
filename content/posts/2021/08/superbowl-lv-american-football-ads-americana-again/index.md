@@ -2,6 +2,7 @@
 template: post
 title: Superbowl LV - American Football, Ads & Americana again
 published: false
+slug: ""
 date: 2021-08-07T21:36:31.157Z
 description: Another look at ads during the big game
 category: Superbowl

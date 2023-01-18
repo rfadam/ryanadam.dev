@@ -3,6 +3,7 @@ title: Superbowl LIV - American Football, Ads & Americana
 date: "2020-02-03T12:00:00.000Z"
 template: "post"
 draft: false
+slug: ""
 published: true
 category: "Superbowl"
 tags:

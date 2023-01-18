@@ -2,6 +2,7 @@
 title: "Looking back on the year that was: 2015 – A year in review"
 date: "2015-12-31T12:00:00.000Z"
 template: "post"
+slug: ""
 draft: false
 published: true
 category: "YearInReview"

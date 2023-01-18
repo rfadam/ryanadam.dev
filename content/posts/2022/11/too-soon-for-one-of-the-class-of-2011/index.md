@@ -3,6 +3,7 @@ template: post
 title: Too Soon for one of the class of 2011
 published: true
 build: true
+slug: ""
 date: 2022-11-22T22:53:18.002Z
 description: You know when you hear some news and you need to process it
   somehow? This is my attempt at processing it

@@ -1,7 +1,7 @@
 ---
 title: "About me"
 template: "page"
-socialImage: ""
+socialImage: "./notebook.jpg"
 ---
 
 I'm Ryan Adam and I currently work as a Software Engineer for JPMorgan Chase in Glasgow.

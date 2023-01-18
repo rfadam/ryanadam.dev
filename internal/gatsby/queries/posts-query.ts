@@ -12,10 +12,16 @@ const postsQuery = async (graphql: CreatePagesArgs["graphql"]) => {
   const result = await graphql<PostsQueryResult>(`
     {
       allMarkdownRemark(
-        filter: {frontmatter: {draft: {ne: true}, build: {ne: false}}}
+        filter: {
+          frontmatter: { template: { eq: "post" }, draft: { ne: true }, published: { eq: true } }
+        }
       ) {
         edges {
           node {
+            frontmatter {
+              template
+              slug
+            }
             fields {
               slug
             }
