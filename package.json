@@ -95,7 +95,7 @@
     "@swc/jest": "^0.2.26",
     "@testing-library/dom": "^8.20.0",
     "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
+    "@testing-library/react": "^14.0.0",
     "@types/gatsby-transformer-remark": "^2.9.1",
     "@types/jest": "^29.5.1",
     "@types/node": "^18.15.11",
