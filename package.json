@@ -104,7 +104,7 @@
     "@types/react-test-renderer": "^18.0.0",
     "@types/sass": "^1.45.0",
     "@typescript-eslint/eslint-plugin": "^6.7.2",
-    "@typescript-eslint/parser": "^6.7.0",
+    "@typescript-eslint/parser": "^6.7.2",
     "autoprefixer": "^10.4.15",
     "browserslist": "^4.21.11",
     "codecov": "^3.8.3",
