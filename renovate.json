@@ -4,8 +4,7 @@
     ":automergePatch",
     ":automergeBranch",
     ":automergeLinters",
-    ":automergeTesters",
-    ":automergeTypes"
+    ":automergeTesters"
   ],
   "packageRules": [
     {
