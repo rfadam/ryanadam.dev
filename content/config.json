@@ -1,37 +1,46 @@
 {
-  "title": "Blog by John Doe",
-  "url": "https://lumen.alxshelepenok.com",
-  "description": "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
+  "title": "Ryan Adam",
+  "url": "https://ryanadam.dev",
+  "subtitle": "ryanadam.dev",
+  "description": "Software Engineer in Glasgow, baker / climber / amateur DIYer at home, runs on coffee & cake",
   "copyright": "© All rights reserved.",
-  "googleAnalyticsId": "UA-73379983-2",
+  "googleAnalyticsId": "NA",
   "pathPrefix": "/",
   "feedLimit": 4,
   "menu": [
     {
-      "title": "Articles",
+      "title": "Posts",
       "url": "/"
     },
     {
       "title": "About me",
       "url": "/pages/about"
-    },
-    {
-      "title": "Contact me",
-      "url": "/pages/contacts"
     }
   ],
   "author": {
-    "title": "John Doe",
-    "photo": "/logo.png",
-    "description": "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
+    "title": "Ryan Adam",
+    "photo": "/photo.jpg",
+    "description": "Software Engineer in Glasgow, baker / climber / amateur DIYer at home, runs on coffee & cake",
     "contacts": [
       {
         "name": "github",
-        "contact": "alxshelepenok"
+        "contact": "rfadam"
       },
       {
         "name": "linkedin",
-        "contact": "alxshelepenok"
+        "contact": "rfadam"
+      },
+      {
+        "name": "email",
+        "contact": "ryan@ryanadam.dev"
+      },
+      {
+        "name": "instagram",
+        "contact": "ryanfadam"
+      },
+      {
+        "name": "mastodon",
+        "contact": "http://hachyderm.io/rfadam"
       }
     ]
   }

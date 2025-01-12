@@ -47,7 +47,7 @@ export const query = graphql`
       limit: $limit
       skip: $offset
       sort: { frontmatter: { date: DESC } }
-      filter: { frontmatter: { template: { eq: "post" }, draft: { ne: true } } }
+      filter: { frontmatter: { template: { eq: "post" }, draft: { ne: true }, published: { eq: true } } }
     ) {
       edges {
         node {

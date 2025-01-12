@@ -67,7 +67,7 @@ export default {
                 allMarkdownRemark(
                   limit: 1000,
                   sort: { frontmatter: { date: DESC } },
-                  filter: { frontmatter: { template: { eq: "post" }, draft: { ne: true } } }
+                  filter: { frontmatter: { template: { eq: "post" }, draft: { ne: true }, published: { eq: true } } }
                 ) {
                   edges {
                     node {
@@ -156,7 +156,7 @@ export default {
         short_name: config.title,
         theme_color: "hsl(31, 92%, 62%)",
         background_color: "hsl(0, 0%, 100%)",
-        icon: "content/logo.png",
+        icon: "content/photo.jpg",
         display: "standalone",
         start_url: "/",
       },

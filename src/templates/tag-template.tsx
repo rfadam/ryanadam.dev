@@ -55,6 +55,7 @@ export const query = graphql`
           tags: { in: [$group] }
           template: { eq: "post" }
           draft: { ne: true }
+          published: { ne: true }
         }
       }
       sort: { frontmatter: { date: DESC } }

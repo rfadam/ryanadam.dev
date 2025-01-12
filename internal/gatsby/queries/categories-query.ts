@@ -14,7 +14,7 @@ const categoriesQuery = async (graphql: CreatePagesArgs["graphql"]) => {
     {
       allMarkdownRemark(
         filter: {
-          frontmatter: { template: { eq: "post" }, draft: { ne: true } }
+          frontmatter: { template: { eq: "post" }, draft: { ne: true }, published: {ne: false} }
         }
         sort: { frontmatter: { date: DESC } }
       ) {
