@@ -24,8 +24,8 @@
     "version": "bun ./internal/scripts/up-version.mjs"
   },
   "dependencies": {
-    "@alxshelepenok/diesel": "^1.0.1365",
-    "@alxshelepenok/diesel-extensions": "^1.0.1241",
+    "@alxshelepenok/diesel": "1.0.1365",
+    "@alxshelepenok/diesel-extensions": "1.0.1240",
     "@sentry/gatsby": "^8.45.1",
     "@sentry/tracing": "^7.114.0",
     "classnames": "^2.5.1",
