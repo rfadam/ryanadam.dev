@@ -15,7 +15,7 @@ $ bun install
 $ bun run start
 ```
 
-### Support
+## Support
 
 Lumen now has a token on **Bags**.  
 Trading activity helps fund development and speeds up PR reviews.
